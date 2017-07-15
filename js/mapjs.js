@@ -8,5 +8,6 @@ function initMap(){
     $.getJSON("../data/secondtry.json", (data) =>{
         var layer = L.geoJSON(data).addTo(mymap);
     });
+    //change
 
 }
